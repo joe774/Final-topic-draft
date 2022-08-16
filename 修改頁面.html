@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <style>
+        #a {
+            margin: 0%;
+        }
+
+        #b {
+            margin: 0%;
+        }
+
+        #f {
+            margin-top: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-secondary">
+        <div class="container">
+            <a href="" class="navbar-brand">第二組</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a href="" class="nav-link">首頁</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">個人資料</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">加入我們</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">瞭解更多</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">敬請期待</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container ">
+        <div class="row ">
+
+            <form style="margin: auto">
+                <ul class="nav nav-pills mb-3 pt-4 " id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                            aria-controls="pills-home" aria-selected="true">基本資料</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                            aria-controls="pills-profile" aria-selected="false">修改密碼</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                            aria-controls="pills-contact" aria-selected="false">可增加</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab">
+                        <div class="form-group">
+                            <label for="exampleInputa">姓氏</label>
+                            <input type="text" class="form-control" id="exampleInputa" placeholder="姓氏">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputb">名字</label>
+                            <input type="text" class="form-control" id="exampleInputb" placeholder="名字">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputc">略稱(選填)</label>
+                            <input type="text" class="form-control" id="exampleInputc" placeholder="略稱(選填)">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputd">電子郵件地址</label>
+                            <input type="email" class="form-control" id="exampleInputd" placeholder="電子郵件地址">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputc">聯絡電話</label>
+                            <input type="text" class="form-control" id="exampleInputc" placeholder="聯絡電話">
+                        </div>
+
+
+                        <div class="form-row align-items-center">
+                            <div class="col-auto my-1">
+                                <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">性別</label>
+                                <p id="a">性別</p>
+                                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                    <option selected>請選取</option>
+                                    <option value="1">男性</option>
+                                    <option value="2">女性</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="margin-bottom 10px
+                        ">
+                            <p id="b">出生日期</p>
+                            <input type="date">
+                        </div>
+
+                        <div id="f">
+                            <button type="submit" class="btn btn-primary">儲存變更</button>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="form-group">
+                            <label for="exampleInputc">舊密碼</label>
+                            <input type="text" class="form-control" id="exampleInputc" placeholder="舊密碼">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputc">新密碼</label>
+                            <input type="text" class="form-control" id="exampleInputc" placeholder="新密碼">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputc">新密碼</label>
+                            <input type="text" class="form-control" id="exampleInputc" placeholder="新密碼">
+                        </div>
+
+                        <div class="margin-top 10px">
+                            <button type="submit" class="btn btn-primary">儲存變更</button>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        內文</div>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
